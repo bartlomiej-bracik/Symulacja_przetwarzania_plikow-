@@ -1,0 +1,82 @@
+﻿<Window x:Class="Programo_wspol_proj.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Programo_wspol_proj"
+        mc:Ignorable="d"
+        Title="Projekt z Programowania Współbierznego" Height="600.455" Width="800.165">
+    <Grid Margin="0,0,-68,-51">
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="124*"/>
+            <RowDefinition Height="124*"/>
+            <RowDefinition Height="124*"/>
+            <RowDefinition Height="123*"/>
+            <RowDefinition/>
+            <RowDefinition Height="124*"/>
+
+        </Grid.RowDefinitions>
+
+
+
+
+
+
+        <Button Content="Dodaj klientów" HorizontalAlignment="Left" Margin="10,68,0,0" VerticalAlignment="Top" Width="109" Height="36" Click="Losuj_Button_Click" Grid.Column="4" Grid.Row="3"/>
+
+
+        <TextBlock Grid.Column="4" x:Name="timeText" HorizontalAlignment="Left" Margin="19,17,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="46" Width="58" Grid.Row="3"><Run Text="Czas: 0s"/></TextBlock>
+        <TextBlock x:Name="clientsText" HorizontalAlignment="Left" Height="386" Margin="10,56,0,0" TextWrapping="Wrap" Text="Lista klientów" VerticalAlignment="Top" Width="411" Grid.ColumnSpan="3" Grid.Row="1" Grid.RowSpan="5"/>
+
+        <!--Bufor 4-->
+        <GroupBox Grid.Column="3" Header="Bufor 4" HorizontalAlignment="Left" Height="86" Margin="18,14,0,0" VerticalAlignment="Top" Width="100">
+
+            <Image Margin="10,0,8,11" Source="DALL·E 2023-01-14 12.48.07 - iconof computer memory space.png" Stretch="Fill" RenderTransformOrigin="0.343,0.389" Grid.Column="4"/>
+        </GroupBox>
+        <TextBlock Grid.Column="3" x:Name="bufor4text" HorizontalAlignment="Left" Margin="10,105,0,0" TextWrapping="Wrap" Text="bufor4" VerticalAlignment="Top" Width="123" Height="35" Grid.RowSpan="2"/>
+        <!--Bufor 4 END-->
+
+        <!--Bufor 1-->
+        <GroupBox Header="Bufor 1" HorizontalAlignment="Left" Height="86" Margin="20,18,0,0" VerticalAlignment="Top" Width="100">
+
+            <Image Margin="10,0,8,11" Source="DALL·E 2023-01-14 12.48.07 - iconof computer memory space.png" Stretch="Fill" RenderTransformOrigin="0.343,0.389" Grid.Column="4"/>
+        </GroupBox>
+        <TextBlock x:Name="bufor1text" HorizontalAlignment="Left" Margin="10,105,0,0" TextWrapping="Wrap" Text="bufor1" VerticalAlignment="Top" RenderTransformOrigin="-8,0.938" Height="35" Grid.RowSpan="2" Width="124"/>
+        <!--Bufor X1END-->
+
+        <!--Bufor 2-->
+        <GroupBox Header="Bufor 2" HorizontalAlignment="Left" Height="86" Margin="25,18,0,0" VerticalAlignment="Top" Width="100" Grid.Column="1">
+
+            <Image Margin="10,0,8,11" Source="DALL·E 2023-01-14 12.48.07 - iconof computer memory space.png" Stretch="Fill" RenderTransformOrigin="0.343,0.389" Grid.Column="4"/>
+        </GroupBox>
+        <TextBlock x:Name="bufor2text" HorizontalAlignment="Left" Margin="10,105,0,0" TextWrapping="Wrap" Text="bufor1" VerticalAlignment="Top" RenderTransformOrigin="-8,0.938" Grid.Column="1" Width="134" Height="35" Grid.RowSpan="2"/>
+        <!--Bufor 2 END-->
+
+        <!--Bufor 3 -->
+        <GroupBox Header="Bufor 3" HorizontalAlignment="Left" Height="86" Margin="20,18,0,0" VerticalAlignment="Top" Width="100" Grid.Column="2">
+            <Image Margin="10,0,8,11" Source="DALL·E 2023-01-14 12.48.07 - iconof computer memory space.png" Stretch="Fill" RenderTransformOrigin="0.343,0.389" Grid.Column="4"/>
+        </GroupBox>
+        <TextBlock x:Name="bufor3text" HorizontalAlignment="Left" Margin="10,104,0,0" TextWrapping="Wrap" Text="bufor1" VerticalAlignment="Top" RenderTransformOrigin="-8,0.938" Grid.Column="2" Width="123" Height="36" Grid.RowSpan="2"/>
+
+        <!--Bufor 5 -->
+        <GroupBox Grid.Column="4" Header="Bufor 5" HorizontalAlignment="Left" Height="86" Margin="19,18,0,0" VerticalAlignment="Top" Width="100">
+
+            <Image Margin="10,0,8,11" Source="DALL·E 2023-01-14 12.48.07 - iconof computer memory space.png" Stretch="Fill" RenderTransformOrigin="0.343,0.389" Grid.Column="4"/>
+        </GroupBox>
+        <TextBlock Grid.Column="4" x:Name="bufor5text" HorizontalAlignment="Left" Margin="10,105,0,0" TextWrapping="Wrap" Text="bufor5" VerticalAlignment="Top" Width="123" Height="35" Grid.RowSpan="2"/>
+
+        <!--Bufor 5 END -->
+
+    </Grid>
+</Window>

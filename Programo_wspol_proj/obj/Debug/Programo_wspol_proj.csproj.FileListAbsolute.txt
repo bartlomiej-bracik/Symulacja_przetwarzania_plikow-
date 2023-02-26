@@ -1,0 +1,15 @@
+C:\Users\Bartek\source\repos\Programo_wspol_proj\Programo_wspol_proj\bin\Debug\Programo_wspol_proj.exe.config
+C:\Users\Bartek\source\repos\Programo_wspol_proj\Programo_wspol_proj\bin\Debug\Programo_wspol_proj.exe
+C:\Users\Bartek\source\repos\Programo_wspol_proj\Programo_wspol_proj\bin\Debug\Programo_wspol_proj.pdb
+C:\Users\Bartek\source\repos\Programo_wspol_proj\Programo_wspol_proj\obj\Debug\Programo_wspol_proj.csprojAssemblyReference.cache
+C:\Users\Bartek\source\repos\Programo_wspol_proj\Programo_wspol_proj\obj\Debug\MainWindow.g.cs
+C:\Users\Bartek\source\repos\Programo_wspol_proj\Programo_wspol_proj\obj\Debug\App.g.cs
+C:\Users\Bartek\source\repos\Programo_wspol_proj\Programo_wspol_proj\obj\Debug\Programo_wspol_proj_MarkupCompile.cache
+C:\Users\Bartek\source\repos\Programo_wspol_proj\Programo_wspol_proj\obj\Debug\Programo_wspol_proj_MarkupCompile.lref
+C:\Users\Bartek\source\repos\Programo_wspol_proj\Programo_wspol_proj\obj\Debug\MainWindow.baml
+C:\Users\Bartek\source\repos\Programo_wspol_proj\Programo_wspol_proj\obj\Debug\Programo_wspol_proj.g.resources
+C:\Users\Bartek\source\repos\Programo_wspol_proj\Programo_wspol_proj\obj\Debug\Programo_wspol_proj.Properties.Resources.resources
+C:\Users\Bartek\source\repos\Programo_wspol_proj\Programo_wspol_proj\obj\Debug\Programo_wspol_proj.csproj.GenerateResource.cache
+C:\Users\Bartek\source\repos\Programo_wspol_proj\Programo_wspol_proj\obj\Debug\Programo_wspol_proj.csproj.CoreCompileInputs.cache
+C:\Users\Bartek\source\repos\Programo_wspol_proj\Programo_wspol_proj\obj\Debug\Programo_wspol_proj.exe
+C:\Users\Bartek\source\repos\Programo_wspol_proj\Programo_wspol_proj\obj\Debug\Programo_wspol_proj.pdb
